@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Local files
+*.tfvars
+*.tfvars.json
+
+# IDE / Temp files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and builds
+*.log
+dist/
+build/
